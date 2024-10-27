@@ -1,0 +1,104 @@
+body {
+    height: 100svh;
+    justify-content: baseline;
+    background-color: #ffffffb1;
+    /* background: url('https://images.unsplash.com/photo-1550895030-823330fc2551?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+    background: url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.app {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px 3%;
+    text-align: center;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    gap: 15px;
+}
+
+.head {
+    width: 100%;
+    display: block;
+    padding: 5px 30px; 
+    font-size: 25px;
+    background-color: #ffffffef;
+    color: #0a63d7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #0000005d;
+}
+
+.menu {
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #0000005d;
+    cursor: pointer;
+    z-index: 99999;
+    user-select: none;
+    display: grid;
+    place-items: center;
+}
+
+.menu:hover {
+    background-color: #dbdedf;
+    transition: 0.2s;
+}
+
+.upForm {
+    margin: 30px 0 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tables {
+    display: flex;
+    justify-content: space-around;
+    font-size: 11px;
+}
+.table {
+    width:100%;
+    height: fit-content;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 0 10px 0 #0000000c;
+    background: linear-gradient(90deg, #008bdd, #01d1b9);
+    border: 1px solid #ffffff;
+}
+
+td {
+    border: 1px solid #7bddf0;
+}
+th {
+    background-color: transparent;
+    height: 40px;
+    color: #ffffff;
+}
+
+.tablePointBlock {
+    display: flex;
+    justify-content: center;
+
+    .tablePoint {
+        width: 70%;
+        height: fit-content;
+        border-collapse: collapse;
+        margin: 20px 0;
+        text-align: center;
+        box-shadow: 0 0 10px 0 #0000009f;
+    }
+}
